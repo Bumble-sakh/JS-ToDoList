@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">ToDo List</div>
+            <div class="form">
+                <input type="text">
+                <button class="btn">Add new task</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>
+            <span>ToDo</span>
+            <span class="mask-num count-todo">0</span>
+        </h2>
+        <ul class="mask-list">
+            
+        </ul>
+        <h2>
+            <span>Done</span>
+            <span class="mask-num count-done">0</span>
+        </h2>
+        <ul class="mask-list complete-list">
+            
+        </ul>    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
